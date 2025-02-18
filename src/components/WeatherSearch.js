@@ -5,7 +5,7 @@ export const WeatherSearch = () => {
     <div>
       <form className='WeatherForm'>
           <input type="text"className='Weather-input' placeholder='What is your city ?' />
-          {/*<button type='submit' className='todo-btn'>Add Task</button>*/}
+          <button type='submit' className='weather-btn'>Search</button>
       </form>
     </div>
   )
